@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "3e8ad0adbfe1314c",
+    "type": "split",
+    "children": [
+      {
+        "id": "37fa4854f9dd40ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2350408ad75182f9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9ce488dd932f544",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e19fb1fe8795ca4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e90579457246572d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb32d5c93884802d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "regula",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd09efe9db908f44",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "213015d0e796677c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce9fb20c8365fdcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "598461965b65d51e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "275c0dd363c403c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "751153550d42dc6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0b974a7815bafdb5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2350408ad75182f9",
+  "lastOpenFiles": [
+    "LightGBM.md",
+    "Private/Apresentação fórum boas práticas.md",
+    "Private",
+    "Machine Learning/F1-Score.md",
+    "Machine Learning/1 rdBw0E-My8Gu3f_BOB6GMA.webp",
+    "2023-08-06.md",
+    "Machine Learning",
+    "Machine Learning/1fXzJ.png",
+    "Machine Learning/Untitled 2.canvas",
+    "Private/Resumão.md",
+    "Machine Learning/K-Prototypes.md",
+    "Machine Learning/Cross Validation.md",
+    "Machine Learning/Métricas de avaliação - Clustering.md",
+    "Machine Learning/DBSCAN.md",
+    "Machine Learning/Naive Bayes.md",
+    "Machine Learning/ROC-AUC.md",
+    "Machine Learning/Classificação.md",
+    "Machine Learning/Técnicas de modelagem - Classificação.md",
+    "Machine Learning/Árvores de decisão - Classificação.md",
+    "Machine Learning/Ensemble.md",
+    "Machine Learning/XGBoost.md",
+    "Machine Learning/Métricas de avaliação - Classificação.md",
+    "Machine Learning/Técnicas de modelagem - Clustering.md",
+    "Machine Learning/Gaussian Mixture Models (GMM).md",
+    "Machine Learning/Regressão Logistica.md",
+    "Machine Learning/K-Medoids.md",
+    "Machine Learning/Divisão (Top Down).md",
+    "Machine Learning/Aglomeração (Bottom Up).md",
+    "Machine Learning/Regularização.md",
+    "Machine Learning/Clustering.md",
+    "Machine Learning/K-Means.md",
+    "Machine Learning/Untitled 1.canvas",
+    "Machine Learning/Pasted image 20230722202312.png",
+    "Machine Learning/Pasted image 20230722161411.png",
+    "Machine Learning/Pasted image 20230722161112.png",
+    "Machine Learning/Pasted image 20230722160043.png",
+    "Machine Learning/Pasted image 20230722154935.png",
+    "Machine Learning/Pasted image 20230722154335.png",
+    "Machine Learning/Pasted image 20230722154126.png",
+    "Machine Learning/Pasted image 20230722000506.png",
+    "Machine Learning/Untitled.canvas"
+  ]
+}
