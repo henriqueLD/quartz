@@ -8,5 +8,6 @@
   },
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
-  "promptDelete": false
+  "promptDelete": false,
+  "newLinkFormat": "absolute"
 }
