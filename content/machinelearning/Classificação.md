@@ -11,13 +11,34 @@ Existem quatro principais tarefas de classificação: **binária**, **multi-clas
 
 ### Classificação Binária
 Em classificação binária temos o interesse de classificar um dado entre duas classes mutuamente exclusivas. Os dados de treino são rotulados de forma binária: 
-- True e False
-- Positivo e Negativo
-- 1 e 0
-- Spam e não spam
+
+![Exemplo Classificação Binária](notes/images/example_binary_classification.png)
+
+[[machinelearning/Regressão Logistica|Regressão Logística]] e [[machinelearning/SVM|SVM]] são algoritmos desenhados originalmente para solucionar problemas binários de classificação e tendem a desempenhar quando os dados não possuem um comportamento muito complexo.
+
+Porém os algoritmos mais comumente utilizados hoje em dia também conseguem resolver esses problemas, como: 
+- [[machinelearning/Random Forest - Classificação|Random Forest]]
+- [[machinelearning/Naive Bayes|Naive Bayes]]
+- [[machinelearning/Gradient Boost|Gradient Boosting]]
+
+### Classificação Multiclasse
+Para classificação multiclasses, existem pelo **menos três classes mutuamente exclusivas** que temos interesse de rotular uma nova informação, analogamente à classificação binária:
+
+![Exemplo Classificação Multi-Classe](notes/images/example_multiclass_classification.png)
+
+Os algoritmos de citados anteriormente podem ser utilizados para os problemas de classificação multiclasses, pois não são nada mais que uma generalização dos problemas binários.
+
+> [!warning] Warning 
+>
+> Mesmo que [[machinelearning/Regressão Logistica|Regressão Logística]] e [[machinelearning/SVM|SVM]]
 
 
-Utilizado quando temos o objetivo de atribuir uma categoria ou rótulo a uma entrada com base em características conhecidas. Por exemplo, é possível utilizar algoritmos de classificação para identificar se um e-mail é spam ou não bom base no conteúdo e nas palavras utilizadas.
+
+
+
+
+
+
 
 [[Técnicas de modelagem - Classificação]]
 
