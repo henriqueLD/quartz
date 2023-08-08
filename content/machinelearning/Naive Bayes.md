@@ -10,16 +10,18 @@ Quando uma nova observação surge e temos que fazer a predição com Naive Baye
 
 Vamos supor que receber um novo e-mail contendo **"Dear friend"** e desejamos utilizar o modelo para classifica-lo como Normal ou Spam, vamos calcular os Scores para cada classe:
 
-$$P(N)*P(Dear|N)*P(Friend|N) = 0.67*0.47*0.29 = 0.09$$
-$$P(S)*P(Dear|S)*P(Friend|S) = 0.33*0.29*0.25 = 0.01$$
+$$ P(N)*P(Dear|N)*P(Friend|N) = 0.67*0.47*0.29 = 0.09 $$
+$$ P(S)*P(Dear|S)*P(Friend|S) = 0.33*0.29*0.25 = 0.01 $$
 Como a classe predita é derivada da classe com maior Score calculado, definimos esse novo e-mail como <mark style="background: #ADCCFFA6;">Normal</mark>
 
 O exemplo **"Dear friend"** funciona porque existe, em ambas as classes, observações que apareceram durante os e-mails de treinamento, porém dados discretos faltantes podem se tornar um grande problema bem rápido para o Naive Bayes.
 
 Um exemplo problemático seria classificar um novo e-mail **"Lunch Money Money Money Money"** dados que a probabilidade a priori de observar "Lunch" no Spam é zero:
 
-$$P(N)*P(Lunch|N)*P(Money|N)^4 = 0.67*0.18*0.06^4 = 0.000002$$
+$$ P(N)*P(Lunch|N)*P(Money|N)^4 = 0.67*0.18*0.06^4 = 0.000002 $$
+
 $$P(S)*P(Lunch|S)*P(Money|S)^4 = 0.33*0.00*0.57^4 = 0$$
+
 ## Como Naive Bayes trata dados faltantes
 Normalmente, o algoritmo de Naive Bayes elimina o problema de dados faltantes realizando uma "pseudo contagem" de cada palavra. Não é nada mais do que adicionar uma contagem para **cada palavra em todas as classes**.
 
@@ -27,7 +29,9 @@ Assim podemos recalcular as **probabilidades condicionais** de cada palavra e n�
 ![[Pasted image 20230716155700.png]]
 
 $$P(N)*P(Lunch|N)*P(Money|N)^4 = 0.67*0.19*0.10^4 = 0.00001$$
+
 $$P(S)*P(Lunch|S)*P(Money|S)^4 = 0.33*0.09*0.45^4 = 0.00121$$
+
 Assim classificando o e-mail corretamente como <mark style="background: #FF5582A6;">Spam</mark>
 
 ## Utilizando dados contínuos
@@ -42,12 +46,17 @@ $$P(N Gostar) = \frac{3}{7}=0.42$$
 Surge uma nova observação para predizer, com os seguintes dados: Popcorn = 20g, Soda= 500ml e Candy = 100g
 
 $$(1):P(G)*L(Popcorn=20|G)*L(Soda=500|G)*L(Candy=100|G) = 0.57*0.06*0.004*0.000000001$$
+
 ==Para evitar problemas de *Underfloat* quando multiplicamos números muito próximos de zero, uma alternativa é utilizar log natural para transformar toda a fórmula e tornar a multiplicação em adição:==
 
-$$(1):log(0.57*0.06*0.004*0.000000001)$$
+$$(1):log(0.57*0.06*0.004*0.000000001$$
+
 $$log(0.57)+log(0.06)+log(0.004)+log(0.000000001) = -124$$
+
 $$(2): P(NG)*L(Popcorn=20|NG)*L(Soda=500|NG)*L(Candy=100|NG)$$
+
 $$log(0.4)*log(0.000000001)*log(0.00008)*log(0.02) = -48$$
+
 Logo classificamos a nova observação como <mark style="background: #FF5582A6;">Não Gosta de Troll 2</mark>
 
 ### Vantagens
