@@ -1,3 +1,6 @@
+---
+title: "Técnicas de modelagem - Classificação"
+---
 
 [[Árvores de decisão - Classificação]]
 

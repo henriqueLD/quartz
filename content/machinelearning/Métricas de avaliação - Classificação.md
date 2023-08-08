@@ -1,3 +1,6 @@
+---
+title: "Métricas de avaliação - Classificação"
+---
 ## Introdução
 As seguintes métricas servem para quantificar o desempenho e a qualidade das previsões feitas por modelos classificadores. Em resumo são usadas para avaliar quão bem um modelo está solucionando o problema em questão, comparar diferentes modelos e selecionar o mais apropriado para a tarefa
 
