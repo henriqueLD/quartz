@@ -5,7 +5,7 @@ Modelos de classificação são métodos de machine learning supervisionados, on
 
 Para classificação, o treino dos modelos é realizado a partir de um conjunto de dados e então avaliamos o desempenho do modelo em um novo conjunto de dados que não foi utilizando durante a etapa de treinamento e então podemos seguir para predições de novas amostras.
 
-![[images/example_classification.png]]
+![[notes/images/example_classification.png]]
 
 Existem quatro principais tarefas de classificação: **binária**, **multi-classe**, **multi-rótulo** e **desbalanceadas**
 
@@ -22,6 +22,3 @@ Utilizado quando temos o objetivo de atribuir uma categoria ou rótulo a uma ent
 [[Técnicas de modelagem - Classificação]]
 
 [[Métricas de avaliação - Classificação]]
-
-
-#classificação 

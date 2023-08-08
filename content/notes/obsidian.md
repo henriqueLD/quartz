@@ -22,7 +22,7 @@ Open Settings > Files & Links and look for these two items:
 1. Set the **New link format** to **Absolute Path in vault**. If you have a completely flat vault (no folders), this step isn't necessary.
 2. Turn **on** the **Automatically update internal links** setting.
 
-
+![[notes/images/obsidian-settings.png]]
 ![[notes/images/obsidian-settings.png]]*Obsidian Settings*
 
 ## Templates
