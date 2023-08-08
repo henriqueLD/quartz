@@ -1,3 +1,6 @@
+---
+title: "Machine Learning"
+---
 Machine learning é um campo da inteligência artificial que se concentra no desenvolvimento de algoritmos e modelos capazes de aprender padrões e tomar decisões com base em dados, sem a necessidade de serem explicitamente programados para cada tarefa especifica. 
 
 Essa abordagem ==tende a melhores resultados à medida que temos mais dados== disponíveis para nos auxiliar nas resoluções de problemas.

@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Henrique Limão Dias
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -12,7 +12,8 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+# GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/henriqueld
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
