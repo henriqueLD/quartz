@@ -28,16 +28,23 @@ Para classificação multiclasses, existem pelo **menos três classes mutuamente
 
 Os algoritmos de citados anteriormente podem ser utilizados para os problemas de classificação multiclasses, pois não são nada mais que uma generalização dos problemas binários.
 
-> [!warning] Warning 
+> [!tip] Dica 
 >
-> Mesmo que [[machinelearning/Regressão Logistica|Regressão Logística]] e [[machinelearning/SVM|SVM]]
+> É possível utilizar técnicas como a One-vs-One ou One-vs-Rest para adaptar problemas multiclasses em binários para tornar viável a utilização de [[machinelearning/Regressão Logistica|Regressão Logística]] e [[machinelearning/SVM|SVM]]
 
+#### One-vs-One
+Essa técnica consiste em treinar um classificador para cada par de rótulos, se tivermos um problema com 3 rótulos, teremos 3 pares de rótulos e por consequência 3 classificadores, conforme exemplo:
 
+![Exemplo One-vs-One](notes/images/one-vs-one.png)
 
+Onde cada modelo é treinado com um conjunto de dados binário e a predição final é dado pelo **voto majoritário entre todos os classificadores**.
 
+#### One-vs-Rest
+Diferente do one-vs-one, aqui consideramos que cada modelo testa cada rótulo contra a combinação dos demais, em geral para **N** rótulos, teremos N classificadores binários.
 
+![Exemplo One-vs-Rest](notes/images/one-vs-rest.png)
 
-
+As predições de cada modelo geralmente ocorrem de maneira probabilística e a predição final é o modelo do rótulo com maior probabilidade.
 
 
 [[Técnicas de modelagem - Classificação]]
