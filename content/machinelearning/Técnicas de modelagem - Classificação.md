@@ -14,9 +14,6 @@ title: "Técnicas de modelagem - Classificação"
 
 [[SVM]]
 
-[[KNN]]
-
-[[Rede Neural]]
 
 
 #classificação 

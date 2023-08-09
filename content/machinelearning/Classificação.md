@@ -7,8 +7,7 @@ Para classificação, o treino dos modelos é realizado a partir de um conjunto 
 
 ![Exemplo Classificação](notes/images/example_classification.png)
 
-Existem quatro principais tarefas de classificação: **binária**, **multi-classe**, **multi-rótulo** e **desbalanceadas**
-
+Existem quatro principais tarefas de classificação: **binária**, **multi-classe** e **multi-label**.
 ### Classificação Binária
 Em classificação binária temos o interesse de classificar um dado entre duas classes mutuamente exclusivas. Os dados de treino são rotulados de forma binária: 
 
@@ -18,8 +17,10 @@ Em classificação binária temos o interesse de classificar um dado entre duas 
 
 Porém os algoritmos mais comumente utilizados hoje em dia também conseguem resolver esses problemas, como: 
 - [[machinelearning/Random Forest - Classificação|Random Forest]]
-- [[machinelearning/Naive Bayes|Naive Bayes]]
 - [[machinelearning/Gradient Boost|Gradient Boosting]]
+- [[machinelearning/XGBClassifier|XGBoost]]
+- [[machinelearning/Naive Bayes|Naive Bayes]]
+- [[KNN]]
 
 ### Classificação Multiclasse
 Para classificação multiclasses, existem pelo **menos três classes mutuamente exclusivas** que temos interesse de rotular uma nova informação, analogamente à classificação binária:
@@ -46,6 +47,15 @@ Diferente do one-vs-one, aqui consideramos que cada modelo testa cada rótulo co
 
 As predições de cada modelo geralmente ocorrem de maneira probabilística e a predição final é o modelo do rótulo com maior probabilidade.
 
+### Classificação Multi-rótulo
+Em tarefas de multi-rótulo temos o interesse de predizer diversas classes para uma observação. Nesse cenário, não temos classes mutuamente exclusivas porque o input pode ter mais de um rótulo.
+
+![Exemplo One-vs-Rest](notes/images/example_multilabel_classification.png)
+
+Não podemos abordar esse problema com os mesmos algoritmos de classificação binária ou multiclasse citados anteriormente, porém os algoritmos mais utilizados possuem uma versão que resolve problemas multi-rótulos:
+- Árvore de decisão multi-label
+- Gradient Boosting multi-label
+- Random Forest multi-label
 
 [[Técnicas de modelagem - Classificação]]
 
