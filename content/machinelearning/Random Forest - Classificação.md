@@ -1,3 +1,6 @@
+---
+title: "Random Forest - Classificação"
+---
 Random Forest é um algoritmo que realiza o [[Ensemble]] de várias [[Árvores de decisão - Classificação|Árvores de decisão]] para realizar classificação em problemas complexos. Ele utiliza um conjunto de árvores de decisão aleatórias e faz **predição com base em uma votação majoritária das árvores individuais**
 
 Utilizando **Bagging** para criar diferentes conjuntos de treinamento a partir do conjunto de dados original. Cada conjunto de treinamento é obtido através de uma amostragem aleatória com reposição, o que permite que exemplos se repitam ou sejam omitidos em cada conjunto.
@@ -23,6 +26,3 @@ Em resumo Random Forest é muito utilizado por sua capacidade de lidar com dados
 - Features precisam ter importância para predição, se não pode prejudicar o algoritmo
 - Predições das árvores não devem estar correlacionadas
 - Abre mão da interpretabilidade/processo de tomada de decisão pela performance
-
-
-#classificação 

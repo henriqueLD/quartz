@@ -17,7 +17,7 @@ Em classificação binária temos o interesse de classificar um dado entre duas 
 
 Porém os algoritmos mais comumente utilizados hoje em dia também conseguem resolver esses problemas, como: 
 - [[machinelearning/Random Forest - Classificação|Random Forest]]
-- [[machinelearning/Gradient Boost|Gradient Boosting]]
+- [[machinelearning/Gradient Boosting|Gradient Boosting]]
 - [[machinelearning/XGBClassifier|XGBoost]]
 - [[machinelearning/Naive Bayes|Naive Bayes]]
 - [[KNN]]

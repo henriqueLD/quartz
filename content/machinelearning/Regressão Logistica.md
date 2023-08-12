@@ -1,3 +1,6 @@
+---
+title: "Regressão Logistica"
+---
 A regressão logística é uma técnica de [[Classificação]] que nos ajuda a estimar uma curva para predizer a probabilidade (entre 0 e 1) de features discretas utilizando variáveis contínuas e/ou discretas, por exemplo se um cliente está insatisfeito ou satisfeito.
 
 O eixo y na regressão logística representa a probabilidade de uma observação pertencer a alguma classe do problema, e a curva de ajuste do modelo(roxo) nos dá a probabilidade predita da pessoa pertencer a uma determinada classificação.

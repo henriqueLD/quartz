@@ -1,3 +1,6 @@
+---
+title: "SVM"
+---
 Support Vector Machine tem o objetivo de encontrar a **fronteira de decisão** que consiga separar o conjunto de dados em classes. **O SVM busca a linha ou hiperplano que melhor separa os dados**, maximizando a distância entre os pontos e a fronteira.
 
 Para encontrar esse hiperplano o SVM usa um processo de minimização para encontrar os pontos que servirão de suporte para criar o vetor delimitante de fronteira, tais pontos são encontrados de forma a maximizar a distância entre eles e a fronteira.
@@ -20,9 +23,9 @@ O Kernel Trick se refere ao fato do SVM, a partir dos kernels, ser capaz de calc
 	- RBF (Radial Basis Function), sendo a principal a Gaussiana
 	- Polinomial
 	- Sigmoide
-![Exemplo Kernels SVM|center](machinelearning/svm_kernels_examples.png)
+![Exemplo Kernels SVM](machinelearning/svm_kernels_examples.png)
 
-![Exemplo Sigmoid Kernel|center](machinelearning/svm_sigmoid_kernel.png)
+![Exemplo Sigmoid Kernel](machinelearning/svm_sigmoid_kernel.png)
 
 ### Vantagens
 - Boa performance em problemas com alta dimensionalidade (muitas features)

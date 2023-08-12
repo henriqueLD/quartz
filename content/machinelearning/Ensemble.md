@@ -20,7 +20,7 @@ No *bagging* <mark style="background: #ADCCFFA6;">várias instâncias do mesmo m
 ## Boosting
 Ensemble que reamostra os casos com base no erro do modelo. Ao identificar quais exemplos de treinamento um modelo do conjunto ensemble errou, na próxima reamostragem as observações previstas de forma errada terão mais importância, desta forma os erros serão corrigidos em cada iteração. 
 
-Existem vários algoritmos de Boosting, sendo os mais famosos: [[AdaBoost]], [[Gradient Boost]], [[XGBoost]], [[LightGBM]], [[CatBoost]]
+Existem vários algoritmos de Boosting, sendo os mais famosos: [[AdaBoost]], [[machinelearning/Gradient Boosting]], [[XGBoost]], [[LightGBM]], [[CatBoost]]
 
 Ao contrária do *bagging* que tem como objetivo reduzir a variância, Boosting é uma técnica que <mark style="background: #ADCCFFA6;">consiste em ajustar de forma sequencial vários modelos fraco</mark>s, de forma que uma importância maior é dada para as observações no dataset que tiveram maior erro no modelo anterior da sequência. De forma intuitiva, cada novo modelo irá focar nas observações mais difíceis, dessa forma <mark style="background: #ADCCFFA6;">obtemos no final do processo um modelo forte com menor viés (mesmo assim é possível perceber que o boosting também pode ter o efeito de reduzir a variância)</mark>.
 
