@@ -1,4 +1,4 @@
-Como as técnicas de clustering não são supervisionadas, não há resposta para o cálculo do **erro**, porém existem 3 tipos de critérios que podemos considerar para avaliar os agrupamentos gerados:
+ffComo as técnicas de clustering não são supervisionadas, não há resposta para o cálculo do **erro**, porém existem 3 tipos de critérios que podemos considerar para avaliar os agrupamentos gerados:
 
 ## Externos
 Avaliam o grau de correspondência entre a estrutura dos grupos (partição ou hierarquia) <mark style="background: #ADCCFFA6;">sob avaliação e informação a priori</mark> na forma de uma solução de agrupamento esperada ou conhecida.

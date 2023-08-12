@@ -2,7 +2,7 @@ Support Vector Machine tem o objetivo de encontrar a **fronteira de decisão** q
 
 Para encontrar esse hiperplano o SVM usa um processo de minimização para encontrar os pontos que servirão de suporte para criar o vetor delimitante de fronteira, tais pontos são encontrados de forma a maximizar a distância entre eles e a fronteira.
 
-O SVM em sua formulação original apenas será capaz de modelar problemas de classificação binária, porém técnicas podem ser aplicadas para fazer expansão para problemas multiclasses, além de problemas regressivos. <mark style="background: #ADCCFFA6;">Em sua forma original, é um classificador linear, porém pode ser utilizados em problemas não lineares utilizando o "Kernel Trick"</mark>.
+O SVM em sua formulação original apenas será capaz de modelar problemas de classificação binária, porém técnicas podem ser aplicadas para fazer expansão para problemas multiclasses, além de problemas regressivos. Em sua forma original, é um classificador linear, porém pode ser utilizados em problemas não lineares utilizando o "Kernel Trick".
 
 ## Soft Margin
 
@@ -14,14 +14,15 @@ Qualquer variação na posição dos pontos próximos à fronteira pode influenc
 
 Quando os dados não são linearmente separáveis a solução é aumentar a dimensionalidade, de forma que em uma nova projeção os dados sejam linearmente separáveis. O aumento de dimensionalidade é feito utilizando uma função **(kernel)**, a qual mapeia os dados em outro espaço.
 
-O <mark style="background: #ADCCFFA6;">Kernel Trick</mark> se refere ao fato do SVM, a partir dos kernels, ser capaz de calcular a relação entre os dados em dimensionalidade aumentada sem que de fato os dados sejam transformados para uma maior dimensão. Fator que torna possível utilizar o Kernel RBF que funciona com dimensionalidade infinita e que as relações sejam calculadas.
-![[Pasted image 20230716214419.png | center]]
+O Kernel Trick se refere ao fato do SVM, a partir dos kernels, ser capaz de calcular a relação entre os dados em dimensionalidade aumentada sem que de fato os dados sejam transformados para uma maior dimensão. Fator que torna possível utilizar o Kernel RBF que funciona com dimensionalidade infinita e que as relações sejam calculadas.
+![Exemplo Kernel SVM|center](machinelearning/svm_kernel_example.png)
 - Os **Kernels** mais utilizados são:
 	- RBF (Radial Basis Function), sendo a principal a Gaussiana
 	- Polinomial
 	- Sigmoide
-![[Pasted image 20230716214548.png | center]]
-![[Pasted image 20230716214601.png | center]]
+![Exemplo Kernels SVM|center](machinelearning/svm_kernels_examples.png)
+
+![Exemplo Sigmoid Kernel|center](machinelearning/svm_sigmoid_kernel.png)
 
 ### Vantagens
 - Boa performance em problemas com alta dimensionalidade (muitas features)
@@ -34,5 +35,3 @@ O <mark style="background: #ADCCFFA6;">Kernel Trick</mark> se refere ao fato do 
 - Todas as features devem ser numéricas
 - Não performa bem quando as classes estão muito sobrepostas
 - Requer cuidado para selecionar de forma apropriada os hiperparâmetros (C, Kernel, etc)
-
-#classificação 
