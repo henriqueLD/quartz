@@ -1,6 +1,5 @@
-É um algoritmo derivado do XGBoost(Extreme Gradient Boosting) baseado em [[Ensemble]] de árvores de decisão que utiliza o [[machinelearning/Gradient Boosting]] como estrutura de forma otimizada computacionalmente, aproveitando do paralelismo.
-![[Pasted image 20230716212019.png | center]]
-![[Pasted image 20230716212041.png | center]] 
+É um algoritmo derivado do XGBoost(Extreme Gradient Boosting) baseado em [[Ensemble]] de árvores de decisão que utiliza o [[machinelearning/Gradient Boosting|Gradient Boosting]] como estrutura de forma otimizada computacionalmente, aproveitando do paralelismo.
+![Benefícios XGBoost|center](notes/images/xgboost.png)
 Consegue melhorar o tempo de processamento construindo os modelo base de árvore de forma paralela, além de ter sido projetado para utilizar os recursos do hardware de forma mais eficiente. Além disso, **realiza a poda das árvores durante o processamento, que gera um ganho de performance**.
 Utiliza a regularização [[Regularização|L1 (Lasso)]] e [[Regularização|L2 (Ridge)]] para prevenir *overfitting*, admite naturalmente features esparsas, sabendo lidar de forma eficiente com valores nulos. Além disso realiza validação cruzada em cada iteração.
 
