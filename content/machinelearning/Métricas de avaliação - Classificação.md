@@ -12,18 +12,18 @@ Proporção de classificações corretamente classificadas pelo modelo de classi
 
 ### [[Precision]]
 AKA: Precisão
-Proporção de observações ==corretamente classificadas como positivas==
+Proporção de observações corretamente classificadas como positivas
 
 ### [[Recall]]
 AKA: Sensibilidade
-Proporção de ==observações positivas classificadas corretamente==
+Proporção de observações positivas classificadas corretamente
 
 ### [[F1-Score]]
 Combinação de [[Precision]] e [[Recall]], penalizando sempre pela métrica de menor valor
 
 ### [[Specificity]]
 AKA: Especificidade
-Proporção de ==observações negativas classificadas corretamente==
+Proporção de observações negativas classificadas corretamente
 
 ### [[ROC-AUC]]
 Curva criada a partir da TPR([[Recall]]) e FPR(1-[[Specificity]])

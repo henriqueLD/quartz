@@ -20,3 +20,4 @@ Os modelos de agrupamento buscam identificar estruturas e relacionamentos oculto
 Utilizado quando o objetivo é identificar grupos ou clusters naturais nos dados onde as observações são semelhantes umas às outras dentro de um mesmo grupo, mas diferentes de observações em outros grupos. Por exemplo, é possível utilizar algoritmos de agrupamento para segmentar clientes com base em seus padrões de compra ou agrupar documentos por tópicos similares.
 
 
+#start 

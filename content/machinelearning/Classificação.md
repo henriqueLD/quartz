@@ -57,6 +57,16 @@ Não podemos abordar esse problema com os mesmos algoritmos de classificação b
 - Gradient Boosting multi-label
 - Random Forest multi-label
 
+## Métricas de avaliação
+Para validarmos a capacidade preditiva dos nossos modelos de classificação temos diversas métricas de avaliação que podemos aplicar nas classificações preditas:
+
+### Matriz de confusão
+Matriz 2x2 que resume o número de predições corretas do modelo. É utilizada como ponto de partida para calcular várias outras métricas de performance.
+![Exemplo Matriz Confusão](notes/images/exemplo_matriz_confusao.png)
+
+
+
+
 [[Técnicas de modelagem - Classificação]]
 
 [[Métricas de avaliação - Classificação]]
